@@ -30,7 +30,7 @@ function App() {
     <div>
       <Header handlePageChange= {handlePageChange}></Header>
       <main>
-      
+      {renderPage()}
       </main>
       <Footer></Footer>
     </div>
